@@ -23,7 +23,6 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-import org.springframework.boot.actuate.autoconfigure.MetricRepositoryAutoConfiguration;
 import org.springframework.boot.autoconfigure.ImportAutoConfiguration;
 import org.springframework.boot.autoconfigure.aop.AopAutoConfiguration;
 import org.springframework.boot.autoconfigure.batch.BatchAutoConfiguration;
@@ -46,7 +45,7 @@ import de.codecentric.batch.configuration.BatchWebAutoConfiguration;
 @Inherited
 @ImportAutoConfiguration({ BatchWebAutoConfiguration.class, DataSourceAutoConfiguration.class,
 	HibernateJpaAutoConfiguration.class, /* since the BatchAutoConfiguration is ordered afer HibernateJpaAutoConfiguration we need to include it otherwise it will be executed before DataSourceAutoConfiguration. */
-	BatchAutoConfiguration.class, PropertyPlaceholderAutoConfiguration.class, MetricRepositoryAutoConfiguration.class,
+	BatchAutoConfiguration.class, PropertyPlaceholderAutoConfiguration.class,
 	AopAutoConfiguration.class })
 public @interface AutoconfigureBatchWebStarter {
 }

@@ -15,23 +15,9 @@
  */
 package de.codecentric.batch;
 
-import java.util.List;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.actuate.metrics.GaugeService;
-import org.springframework.boot.actuate.metrics.Metric;
-import org.springframework.boot.actuate.metrics.rich.RichGauge;
-import org.springframework.boot.actuate.metrics.writer.CompositeMetricWriter;
-import org.springframework.boot.actuate.metrics.writer.MetricWriter;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
-import org.springframework.context.annotation.Primary;
-
-import de.codecentric.batch.metrics.ListenerMetricsAspect;
-import de.codecentric.batch.metrics.MetricsOutputFormatter;
 
 /**
  * Application for integration testing.
@@ -43,7 +29,7 @@ import de.codecentric.batch.metrics.MetricsOutputFormatter;
 @Import(TestListenerConfiguration.class)
 public class MetricsTestApplication {
 
-	public static void main(String[] args) {
+/*	public static void main(String[] args) {
 		SpringApplication.run(MetricsTestApplication.class, args);
 	}
 
@@ -86,6 +72,6 @@ public class MetricsTestApplication {
 		// the correct output.
 		MetricWriter compositeMetricWriter = new CompositeMetricWriter(writers);
 		return compositeMetricWriter;
-	}
+	}*/
 
 }
