@@ -97,13 +97,13 @@
 	<distributionManagement>
 
 		<snapshotRepository>
-			<id>mi-nexus-snapshots</id>
+			<id>nexus</id>
 			<name>mi-snapshots</name>
 			<url>https://nexus.columbus-qa.product.which.co.uk/repository/maven-snapshots</url>
 		</snapshotRepository>
 
 		<repository>
-			<id>mi-nexus-releases</id>
+			<id>nexus</id>
 			<name>mi-releases</name>
 			<url>https://nexus.columbus-qa.product.which.co.uk/repository/maven-releases</url>
 		</repository>
