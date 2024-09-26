@@ -1,16 +1,15 @@
 Enterprise-ready production-ready batch applications powered by Spring Boot
 =============================
-[![Build Status](https://travis-ci.org/codecentric/spring-boot-starter-batch-web.png?branch=master)](https://travis-ci.org/codecentric/spring-boot-starter-batch-web)
-[![Coverage Status](https://coveralls.io/repos/codecentric/spring-boot-starter-batch-web/badge.svg?branch=master&service=github)](https://coveralls.io/github/codecentric/spring-boot-starter-batch-web?branch=master)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/de.codecentric/batch-web-spring-boot-starter/badge.svg)](https://maven-badges.herokuapp.com/maven-central/de.codecentric/spring-boot-starter-batch-web/)
+[![Build Status](https://github.com/codecentric/spring-boot-starter-batch-web/actions/workflows/build-main.yml/badge.svg)](https://github.com/codecentric/spring-boot-starter-batch-web/actions/workflows/build-main.yml)
+[![Coverage Status](https://codecov.io/gh/codecentric/spring-boot-starter-batch-web/branch/master/graph/badge.svg?token=F02AqwYUBa)](https://codecov.io/gh/codecentric/spring-boot-starter-batch-web)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/de.codecentric/batch-web-spring-boot-starter/badge.svg)](https://maven-badges.herokuapp.com/maven-central/de.codecentric/batch-web-spring-boot-starter/)
 [![License](http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
-
 
 The project batch-web-spring-boot-starter is a Spring Boot starter for Spring Batch taking care of everything except writing the jobs.
 
 See the documentation for detailed infos, examples and operational details.
-* [Latest Snapshot](http://codecentric.github.io/spring-boot-starter-batch-web/current/)
-* [Version 2.0.4.RELEASE](http://codecentric.github.io/spring-boot-starter-batch-web/2.0.4.RELEASE/)
+* [Latest Snapshot](http://codecentric.github.io/spring-boot-starter-batch-web/2.4.0.SNAPSHOT/)
+* [Version 2.3.0](http://codecentric.github.io/spring-boot-starter-batch-web/2.3.0/)
 * [Version 1.4.0.RELEASE](http://codecentric.github.io/spring-boot-starter-batch-web/1.4.0.RELEASE/)
 
 Features include:
